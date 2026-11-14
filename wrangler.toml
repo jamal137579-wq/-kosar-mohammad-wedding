@@ -1,3 +1,4 @@
+
 name = "kosar-mohammad-wedding"
 main = "src/worker.js"
 compatibility_date = "2026-11-14"
@@ -5,9 +6,9 @@ compatibility_date = "2026-11-14"
 [assets]
 directory = "./public"
 binding = "ASSETS"
-not_found_handling = "single-page-application"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "wedding-rsvps"
-database_id = "REPLACE_WITH_YOUR_CLOUDFLARE_D1_DATABASE_ID"
+database_name = "kosar-wedding-db"
+database_id = "1bd357c2-15d8-4cbe-9010-3bfba3ea2a66"
+
